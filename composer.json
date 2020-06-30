@@ -18,11 +18,16 @@
     "ext-mbstring": "*",
     "ext-ctype": "*",
     "ext-json": "*",
-    "monolog/monolog": "1.23 || ^2.0"
+    "monolog/monolog": "1.23 || ^2.0",
+    "guzzlehttp/guzzle": "^6.2",
+    "ext-simplexml": "*"
   },
   "autoload": {
     "psr-4": {
       "CoverCMS\\Support\\": "src/"
     }
+  },
+  "suggest": {
+    "predis/predis": "Allows to use throttle feature"
   }
 }
