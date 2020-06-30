@@ -1,0 +1,28 @@
+{
+  "name": "covercms/support",
+  "type": "library",
+  "description": "CoverCMS support library",
+  "keywords": [
+    "covercms"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Mr moon",
+      "email": "createsmart@163.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.1",
+    "ext-mbstring": "*",
+    "ext-ctype": "*",
+    "ext-json": "*",
+    "monolog/monolog": "1.23 || ^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CoverCMS\\Support\\": "src/"
+    }
+  }
+}
