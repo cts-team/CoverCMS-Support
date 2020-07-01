@@ -19,7 +19,7 @@
     "ext-ctype": "*",
     "ext-json": "*",
     "monolog/monolog": "1.23 || ^2.0",
-    "guzzlehttp/guzzle": "^6.2",
+    "guzzlehttp/guzzle": "^6.2 || ^7.0",
     "ext-simplexml": "*"
   },
   "autoload": {
